@@ -21,7 +21,7 @@ public class PlayerControler : MonoBehaviour
     {
         float move = Input.GetAxis("Horizontal");
 
-        // Animación de caminar
+        // Animacion de caminar
         float speedAnimation = Mathf.Abs(move);
         animator.SetFloat("Speed", speedAnimation);
 
